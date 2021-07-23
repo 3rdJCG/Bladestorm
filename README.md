@@ -11,7 +11,7 @@ First Download [UnityCapture](https://github.com/schellingb/UnityCapture) from G
 ---
 ## 概要
 BladestormはVALORANTのEsports配信向けのオーバーレイシステムです。
-Esports配信で欠かせないチーム名やマッチ名、得失MAP数の表示をソフトウェアによって行うことができます。
+Esports配信で欠かせないチーム名やマッチ名、得失MAP数の表示などをソフトウェアによって簡単に行うことができます。
 
 ## インストール
 ### UnityCaputureのインストール
