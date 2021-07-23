@@ -15,27 +15,26 @@ Esports配信で欠かせないチーム名やマッチ名、得失MAP数の表�
 
 ## インストール
 ### UnityCaputureのインストール
-まず [UnityCapture](https://github.com/schellingb/UnityCapture) をGitHubの [`Download ZIP`](https://github.com/schellingb/UnityCapture/archive/master.zip) ボタンを押してダウンロードするか、Gitを用いてリポジトリをcloneします。
+1. まず [UnityCapture](https://github.com/schellingb/UnityCapture) をGitHubの [`Download ZIP`](https://github.com/schellingb/UnityCapture/archive/master.zip) ボタンを押してダウンロードするか、Gitを用いてリポジトリをcloneします。
 
-ダウンロードした `UnityCapture` のフォルダを開き、`Install` フォルダをの中の `Install.bat` を実行します(要管理者権限)。
+2. ダウンロードした `UnityCapture` のフォルダを開き、`Install` フォルダをの中の `Install.bat` を実行します(要管理者権限)。
 
 ### Bladestormのインストール
-次にこのプロジェクトの [Release](https://github.com/3rdJCG/Bladestorm/releases/) を開き、最新のバージョンの `Assets` カラムを開き `Bladestorm.zip` をダウンロードします。
+1. 次にこのプロジェクトの [Release](https://github.com/3rdJCG/Bladestorm/releases/) を開き、最新のバージョンの `Assets` カラムを開き `Bladestorm.zip` をダウンロードします。
 
-ダウンロードしたZIPファイルを展開し、`Bladestorm.exe` を実行します。
+2. ダウンロードしたZIPファイルを展開し、`Bladestorm.exe` を実行します。
 
 ## 使い方
-まずOBS Studioを開き、任意の方法でVALORANTのゲーム画面をキャプチャします。
+1. まずOBS Studioを開き、任意の方法でVALORANTのゲーム画面をキャプチャします。
 
-次にBladestormを起動し、その状態でOBSを開き、 `ソースを追加` をクリックし、`映像キャプチャデバイス` を選択します。
+2. 次にBladestormを起動し、その状態でOBSを開き、 `ソースを追加` をクリックし、`映像キャプチャデバイス` を選択します。
+   開いたポップアップでデバイスを選択できるので、`Unity Video Capture` を選択し、追加します。
 
-開いたポップアップでデバイスを選択できるので、`Unity Video Capture` を選択し、追加します。
+3. 追加した `映像キャプチャデバイス` のフィルタータブを開き、`エフェクトフィルター` から `クロマキー` を追加します。
+   色キーの種類を `Custom` にし、キーの色は `#0000FF` として類似性は `0` に設定することを推奨します。
 
-追加した `映像キャプチャデバイス` のフィルタータブを開き、`エフェクトフィルター` から `クロマキー` を追加します。
-色キーの種類を `Custom` にし、キーの色は `#0000FF` として類似性は `0` に設定することを推奨します。
+4. Bladestormのウィンドウから、各種項目を入力すると即座にOBSに反映されます。
 
-Bladestormのウィンドウから、各種項目を入力すると即座にOBSに反映されます。
-
-設定のウィンドウを閉じてしまった場合は、`F10` キーで戻すことができます。
+5. 設定のウィンドウを閉じてしまった場合は、`F10` キーで戻すことができます。
 
 
