@@ -3,7 +3,7 @@
 
 ## Overview
 Bladestorm is VALORANT's overlay system for esports streaming.
-It is able to use software to display team names, MAP score numbers, and match names, all of which are essential for Esport streaming.
+It is able to display team names, scores, and match names, which are essential for Esport streaming.
 
 <!-- ## Installation
 First Download [UnityCapture](https://github.com/schellingb/UnityCapture) from GitHub with the [`Download ZIP`](https://github.com/schellingb/UnityCapture/archive/master.zip) button or by cloning the repository. -->
